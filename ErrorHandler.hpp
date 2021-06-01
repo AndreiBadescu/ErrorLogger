@@ -3,12 +3,12 @@
 #include <string>
 #include <cstdint>
 
-#define LOG_MESSAGE(...)	err::Logger::WriteMessage(__VA_ARGS__)
-#define LOG_WARNING(...)	err::Logger::WriteWarning(__VA_ARGS__)
-#define LOG_ERROR(...)		err::Logger::WriteError(__VA_ARGS__)
-#define LOG_FATAL(...)		err::Logger::WriteFatal(__VA_ARGS__)
+#define LOG_MESSAGE(...)    err::Logger::WriteMessage(__VA_ARGS__)
+#define LOG_WARNING(...)    err::Logger::WriteWarning(__VA_ARGS__)
+#define LOG_ERROR(...)      err::Logger::WriteError(__VA_ARGS__)
+#define LOG_FATAL(...)      err::Logger::WriteFatal(__VA_ARGS__)
 #define LOG_IN_CONSOLE(...) err::Logger::PrintInConsole(__VA_ARGS__)
-#define LOG_TO_FILE(...)	err::Logger::SetOutputFile(__VA_ARGS__)
+#define LOG_TO_FILE(...)    err::Logger::SetOutputFile(__VA_ARGS__)
 
 namespace err {
 
